@@ -63,7 +63,9 @@ ipython_config.py
 *.tmp
 *.temp
 
-# Results (optional - uncomment if you don't want to track results)
-# artifacts/results.xlsx
-# artifacts/comprehensive_results.xlsx
-# artifacts/figs/*.png
+# Results and large files
+artifacts/results.xlsx
+artifacts/comprehensive_results.xlsx
+artifacts/figs/*.png
+artifacts/data/*.parquet
+artifacts/data/tpch/*.parquet
